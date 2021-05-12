@@ -25,9 +25,9 @@
 ***API:***
 
 ****Consulta paginada:****
-##
+###
 *****http://localhost:3000/api?page=1&limit=10*****
 
 ****Consulta por id:****
-##
+###
 *****http://localhost:3000/api/:id*****
