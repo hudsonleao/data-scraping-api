@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://USERNAME:PASSWORD@cluster0.aw32k.mongodb.net/scraping?retryWrites=true&w=majority', { useUnifiedTopology: true, useNewUrlParser: true  });
+mongoose.connect('mongodb://scraping:12Dwd234cvewfads@localhost:27017/scraping', { useUnifiedTopology: true, useNewUrlParser: true  });
 
 const Servidores = new mongoose.Schema({
     tipo: String,

@@ -12,6 +12,6 @@ app.get('/', (req, res) =>{
 });
 
 app.listen(3000, () => {
-    console.log("Data scraping API inicializada com sucesso!")
-    console.log('PORTA: 3000')
+    console.log("Data scraping API inicializada com sucesso!");
+    console.log("Acessar: http://localhost:3000/")
 })
