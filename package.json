@@ -1,0 +1,25 @@
+{
+  "name": "data-scraping-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hudsonleao/data-scraping-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hudsonleao/data-scraping-api/issues"
+  },
+  "homepage": "https://github.com/hudsonleao/data-scraping-api#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.8",
+    "puppeteer": "^9.1.1"
+  }
+}
